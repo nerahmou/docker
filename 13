@@ -1,1 +1,0 @@
-docker inspect --format '{{ index (index .Config.Env) }}' CONTAINER ID
